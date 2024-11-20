@@ -25,8 +25,8 @@ const AddHooks = ({ isOpen, onClose, onSave, newWebhook, setNewWebhook }) => {
                         onChange={(e) => setNewWebhook({ ...newWebhook, status: e.target.value })}
                         className="w-full mt-1 p-2 border border-gray-300 rounded"
                     >
-                        <option value="Enabled">Enabled</option>
-                        <option value="Disabled">Disabled</option>
+                        <option value="1">Enabled</option>
+                        <option value="0">Disabled</option>
                     </select>
                 </div>
                 <div className="flex justify-end">
